@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Window Hotkeys
+Comment=Keyboard Hotkeys (kwin)
+Exec=kcmshell6 --caption "Keyboard Hotkeys (kwin)" kcm_keys 
+Type=Application
+Icon=kwin
+Categories=Settings;DesktopSettings;Qt;RSp;
+OnlyShowIn=RSp;

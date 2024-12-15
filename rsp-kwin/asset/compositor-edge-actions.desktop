@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Window Actions
+Comment=Screen Compositor Actions (kwin)
+Exec=kcmshell6 --caption "Screen Compositor Actions (kwin)" kcm_kwinscreenedges kcm_kwintouchscreen kcm_keys
+Type=Application
+Icon=kwin
+Categories=Settings;DesktopSettings;Qt;RSp;
+OnlyShowIn=RSp;

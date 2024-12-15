@@ -1,0 +1,40 @@
+{
+  "tasks": [
+    {
+      "hash": "",
+      "task": "porra"
+    },
+    {
+      "hash": "",
+      "task": "porra2"
+    },
+    {
+      "hash": "af8",
+      "task": "porra5"
+    },
+    {
+      "hash": "7be",
+      "task": "porra6"
+    },
+    {
+      "hash": "93c",
+      "task": "porra6"
+    },
+    {
+      "hash": "41c",
+      "task": "porra67"
+    },
+    {
+      "hash": "8b6",
+      "task": "porra6745"
+    },
+    {
+      "hash": "577",
+      "task": "kscreen"
+    },
+    {
+      "hash": "fad",
+      "task": "kscreen deps pelo apt"
+    }
+  ]
+}

@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Appearance (Windows)
+Comment=Window Compositor Styles (kwin)
+Exec=kcmshell6 --caption "Window Compositor Styles (kwin)" kcm_kwindecoration  
+Type=Application
+Icon=kwin
+Categories=Settings;DesktopSettings;Qt;RSp;
+OnlyShowIn=RSp;
