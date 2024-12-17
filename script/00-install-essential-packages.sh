@@ -20,5 +20,8 @@ sudo apt install -y cmake-extras
 sudo apt install -y brightnessctl 
 sudo apt install -y build-essential 
 sudo apt install -y libasound2-plugins
+sudo apt install -y dbus-* --no-install-recommends 
+sudo apt install -y apparmor-utils
+sudo apt install -y selinux-utils
 
 exit 0;

@@ -17,10 +17,11 @@ sudo apt install -y xwayland-run
 sudo apt install -y kwin-wayland --no-install-suggests;
 
 # Essential libs
-
 sudo apt install -y libgl1-mesa-glx
 sudo apt install -y libgl1-mesa-dri
 sudo apt install -y libgl1-nvidia-tesla-470-glvnd-glx
+sudo apt install -y libexif-* --no-install-recommends
+sudo apt install -y libmenu-cache*
 
 # Build deps
 sudo apt build-dep kwin-wayland -y;
