@@ -24,5 +24,9 @@ sudo apt install -y wayland*
 sudo apt install -y libwlroots*
 sudo apt install -y xwayland
 sudo apt install -y xwayland-run
+sudo apt install -y kwin-wayland --no-install-suggests;
+
+# Build deps
+sudo apt build-dep kwin-wayland -y;
 
 exit 0;

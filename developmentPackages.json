@@ -32,7 +32,6 @@
     "libqt5xml*",
     "libqt5xmlpatterns5-dev*",
     "libkwin6",
-    "kwin-dev --no-install-suggests --no-install-recommends",
     "libkf5windowsystem-dev",
     "libqt6svg",
     "libqt5svg5*"

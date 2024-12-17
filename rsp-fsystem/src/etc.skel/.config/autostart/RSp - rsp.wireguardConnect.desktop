@@ -1,0 +1,6 @@
+[Desktop Entry]
+Exec=/usr/local/bin/rsp.wireguardConnect && /usr/local/bin/rsp.disableIPV6
+Name=RSp - rsp.wireguardConnect
+Type=Application
+Version=1.0
+X-RSp-Need-Tray=true

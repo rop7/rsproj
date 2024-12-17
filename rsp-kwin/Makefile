@@ -1,9 +1,6 @@
-.PHONY: all deps make post
+.PHONY: all make post
 
-all: deps make post
-
-deps:
-	nice -15 ./deps.sh
+all: make post
 
 post:
 	nice -15 rsp.nodeJS ./post.js
