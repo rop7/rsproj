@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Wrapper for adduser command
-/usr/sbin/adduser "$@"
+/usr/sbin/adduser "$@" --shell /bin/bash
 
 # Check if adduser succeeded
 if [ $? -ne 0 ]; then
