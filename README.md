@@ -3,21 +3,6 @@
   - instalacao padrao de keepassxc
   - bakupb das proj antigo (hd B)
 
-  *** - iniciar rev Secutiry (após rev Desktop standard)
-
-  ********** focar no essencial, para nao passar mal.
-          
-              * TEST FIRST NO METTAR HOW BEFORE ALL
-              * write API FIRST!!!
-  ==================================================================
-
-  12. * INDO - Marcar novo exame LPI
-  13. * INDO - ESTUDAR PARA O LPI 01016
-
-  ==================================================================
-
-
-  
   11 - Pendrive(CD-ROM) @rsp 71
 
                               ~ Mínima Usabilidade  
@@ -43,7 +28,20 @@
           OK - Background de screenlock
           OK - Serviço de screenlock
           OK - Power manager
+         
+          *** - DAR UM BREIK!!!
 
+          - testar dps de da um autoremove + 42-clean + util.remodevpackages
+          - mudar bg da grub live
+          - implementar user selector
+          - calamares
+              * postscripts
+              - remove dev user/default/rsp
+              - instalar pacotes firmware
+              - setup-grub
+              - dar autoremove
+        
+          - DEPOIS > iniciar rev Secutiry (após rev Desktop standard)
 
   <todo-list>
 
@@ -164,7 +162,16 @@
           OK - Background de screenlock
           OK - Serviço de screenlock
           OK - Power manager
-
+          OK - remover sockets de wayland em /run/user/0/wayland*
+          OK - comando setenforce
+          OK - comando dbus-launch
+          OK - consertar temas rsp-remake
+          OK - consertar skel de background default para /usr/share/wallpapers/rsp/RspGraylandDarker.png
+          OK - script de autocriar user de teste em /home/dev
+          OK - nao ta logando na bash automaticamente pelo agetty (PRECISA DEFINIR A SHELL NO adduser-wrapper ?)
+              - SE NAO, tirar o .bash_profile do skel p ve se e isso
+              - se nao, perguntar ao chatgpt.
+              *** Era o .bash_profile vazio;
 
   <todo-list>
 
@@ -249,7 +256,7 @@
 
   <quest-log>
 
-  <arquive>
+  <archive>
 
       - por os servicos de desktop no pm2 para melhor estabilidade usando regras de watch e autorestarting e priorizacao de processamento
       - deixa tater nobljuetooth so > controle de audio > pc > cel >som
@@ -287,9 +294,9 @@
           - configs de skippy
           - + setar o build deles no rsp-filesystem
           
-  </arquive>
+  </archive>
 
-  <arquive>
+  <archive>
 
       - por os servicos de desktop no pm2 para melhor estabilidade usando regras de watch e autorestarting e priorizacao de processamento
       - deixa tater nobljuetooth so > controle de audio > pc > cel >som
@@ -327,4 +334,4 @@
           - configs de skippy
           - + setar o build deles no rsp-filesystem
           
-  </arquive>
+  </archive>
