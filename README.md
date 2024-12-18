@@ -31,7 +31,10 @@
          
           *** - DAR UM BREIK!!!
 
-          - testar dps de da um autoremove + 42-clean + util.remodevpackages
+          OK - testar dps de da um autoremove
+          OK - + 42-clean 
+          OK - + util.remodevpackages
+          
           - mudar bg da grub live
           - implementar user selector
           - calamares
@@ -55,6 +58,7 @@
 
   <next-version @minor>
 
+  - usar warp inves de dnsproxy
   - endpoint shttps
     - resgata as sshk mestre por curl basisc https
       - entra na /home/U local
