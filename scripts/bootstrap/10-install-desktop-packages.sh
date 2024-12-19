@@ -15,6 +15,7 @@ sudo apt install -y wayland*
 sudo apt install -y xwayland
 sudo apt install -y xwayland-run
 sudo apt install -y kwin-wayland --no-install-suggests;
+sudo apt install -y kwin-common --no-install-suggests --no-install-recommends;
 
 # Essential libs
 sudo apt install -y libgl1-mesa-glx
@@ -22,8 +23,11 @@ sudo apt install -y libgl1-mesa-dri
 sudo apt install -y libgl1-nvidia-tesla-470-glvnd-glx
 sudo apt install -y libexif-* --no-install-recommends
 sudo apt install -y libmenu-cache*
+sudo apt install -y libfcft4t64
+sudo apt install -y wireguard-tools
+sudo apt install -y libkf6kcmutils*
+sudo apt install -y libkf6c*
 
-# Build deps
-sudo apt build-dep kwin-wayland -y;
+sudo apt autoremove -y --purge;
 
 exit 0;

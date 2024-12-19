@@ -11,5 +11,8 @@ fetch:
 rebrand:
 	nice -15 bash ./rebrand.sh
 
+fix:
+	nice -15 rsp.nodeJS ./fix.js
+
 make:
 	nice -15 bash ./make.sh

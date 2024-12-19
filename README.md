@@ -35,7 +35,7 @@
           OK - + 42-clean 
           OK - + util.remodevpackages
           
-          - mudar bg da grub live
+          INDO/OK/MUDARCOR/BORDA/ISOLINUX - mudar bg da grub live
           - implementar user selector
           - calamares
               * postscripts
@@ -44,7 +44,10 @@
               - setup-grub
               - dar autoremove
         
-          - DEPOIS > iniciar rev Secutiry (após rev Desktop standard)
+          @DEPOIS > iniciar rev Secutiry (após rev Desktop standard)
+              @DEPOIS > iniciar rev Cloudable (após rev Secutiry)
+                  @DEPOIS > iniciar rev Performance (após rev Cloudable)
+
 
   <todo-list>
 
