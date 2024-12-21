@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Caminho fixo para o arquivo JSON
-JSON_FILE="/home/dev/rsp/latestDevelopmentPackages.json"
+JSON_FILE="/home/dev/rsp/@scripts/asset/latestDevelopmentPackages.json"
 
 # Verifica se o arquivo JSON existe
 if [ ! -f "$JSON_FILE" ]; then
