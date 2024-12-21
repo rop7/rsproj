@@ -15,4 +15,4 @@ username="$1"
 # Pass the username to the Node.js script via environment variable
 USER=$username /usr/lib/rsp/helper/adduserPost
 
-passwd $USER;
+passwd $username;
